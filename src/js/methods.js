@@ -527,6 +527,7 @@ export default {
         'height',
         'naturalWidth',
         'naturalHeight',
+        'aspectRatio',
       ], (n) => {
         data[n] = canvasData[n];
       });

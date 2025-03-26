@@ -2632,7 +2632,7 @@ var methods = {
     var canvasData = this.canvasData;
     var data = {};
     if (this.ready) {
-      forEach(['left', 'top', 'width', 'height', 'naturalWidth', 'naturalHeight'], function (n) {
+      forEach(['left', 'top', 'width', 'height', 'naturalWidth', 'naturalHeight', 'aspectRatio'], function (n) {
         data[n] = canvasData[n];
       });
     }

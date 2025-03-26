@@ -39,6 +39,7 @@ declare namespace Cropper {
     height: number;
     naturalWidth: number;
     naturalHeight: number;
+    aspectRatio: number;
   }
 
   export interface CropBoxData {
